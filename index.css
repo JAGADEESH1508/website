@@ -124,7 +124,7 @@ section{
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
    
 
 }
@@ -159,44 +159,48 @@ p{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-
-}
-
-.flex-box{
-    width: 200px;
-    height: 200px;
-    background: linear-gradient(black,red);
-    color: whitesmoke;
-    font-size: 25px;
-    text-align: center;
-    line-height: 200px;
-    border-radius: 20px;
-    margin: 10px;
-}
-
-.flex-register{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     
 
 }
 
-.flex-reg{
-    width: 200px;
-    height: 200px;
-    background: linear-gradient(black,rgb(236, 232, 232));
-    color: whitesmoke;
-    font-size: 25px;
-    text-align: center;
-    line-height: 200px;
-    border-radius: 20px;
-    margin: 10px
+.card{
+    width: 220px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 15px ;
+    
 }
+
+.card-image{
+   
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 15px 15px ;
+}
+
+.car-1{
+    background-image: url('img5.png');
+}
+
+.car-2{
+    background-image: url('img5.png');
+}
+
+.car-3{
+    background-image: url('img5.png');
+}
+
+.car-4{
+    background-image: url('img5.png');
+}
+
+.car-5{
+    background-image: url('img5.png');
+}
+
+
 
 .flex-guest{
     width: 100%;
@@ -208,117 +212,158 @@ p{
 
 }
 
-.flex-honour{
-    width: 200px;
-    height: 200px;
-    background: linear-gradient(rgb(188, 149, 240),rgb(235, 232, 232));
-    color: whitesmoke;
-    font-size: 25px;
-    text-align: center;
-    line-height: 200px;
-    border-radius: 20px;
-    margin: 10px;
+
+
+
+
+.car-11{
+    background-image: url('poorvika.jpg');
+}
+
+.car-12{
+    background-image: url('four.png');
 }
 
 
-
-footer{
-    background: plum;
-    padding-top: 50px;
-    display:flex ;
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.container{
-    width: 1140px;
-    margin: auto;
+#footer{
+    background: #f7f7f7;
+      padding: 3rem;
+    /* padding-top: 5rem; */
+    padding-top: 7rem;
+      padding-bottom: 80px;
+    background-image: url(https://arena.km.ua/wp-content/uploads/3538533.jpg);
+  }
+  #footer2{
+    background: #f7f7f7;
+      padding: 3rem;
+      margin-top: 0px;
+    /* padding-top: 5rem; */
+    padding-top: 7rem;
+      padding-bottom: 80px;
+    background-image: url(../images/cards/v748-toon-111.png);
+  }
+  .logo-footer{
+     max-width: 300px; 
+  }
+  .social-links{
+     display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; 
+  
+  }
+  .social-links h2{
+    padding-bottom: 15px;
+    font-size: 20px;
+      font-weight: 600;
+  }
+  .social-links img{
+    padding-bottom: 25px;
+  }
+  .social-icons{
+     display: flex;
+      gap: 3rem; 
     display: flex;
-    justify-content: center;
-}
-
-.footer-content{
-    width: 33.3%;
-
-}
-h3{
-    font-size: 28px;
-    margin-bottom: 15px;
-    text-align: center;
-}
-
-.footer-content p{
-    width: 190px;
-    margin: auto;
-    padding: 7px;
-
-}
-
-.list{
-    padding: 0;
-}
-
-.footer-content li{
-    width: auto;
-    text-align: center;
-    list-style-type: none;
-    padding: 7px;
-    position: relative;
-}
-
-.list li::before{
-    content: '';
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top:100%;
-    width: 0;
-    height: 2px;
-    background: #fc036b;
-    transition-duration:.5s ;
-}
-.list li:hover::before{
-    width:70px;
-}
-
-.social-icons {
-    text-align: center;
-    padding: 0;
-}
-
-.social-icons li {
-    color: white;
-    font-size: 25px;
-}
-
-a{
-    text-decoration: none;
-
-}
-
-a:hover{
-    color: #fc036b;
-}
-
-.social-icons i:hover{
-    color: #fc036b;
-}
-
-.bottom-bar{
-    background: #fc036b;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 50px;
-}
-.bottom-bar p{
-    color: #fc036b;
-    margin: 0;
+      flex-direction: column;
+      gap: 1rem;
+    color: #777777;
+  }
+  .social-icons a{
+     font-size: 18px; 
+      background: #ffffff; 
+       box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
+      padding: 0.4rem 1rem 0.4rem 1rem;
+      border-radius: 3px;
+    color: #82074a; 
+     margin-right: 18px; 
+    color: #777777;
+  }
+  .social-icons a:hover{
+    color: #000;
+  }
+  .social-icons a i{
+    box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
+      padding: 0.4rem 1rem 0.4rem 1rem;
+      border-radius: 3px;
+      color: #82074a;
     font-size: 16px;
-    padding: 7px;
-}
+    margin-right: 12px;
+  }
+  li{
+    list-style: none;
+  }
+  .useful-link h2{
+    padding-bottom: 15px;
+    font-size: 20px;
+      font-weight: 600;
+  }
+  .useful-link img{
+    padding-bottom: 15px;
+  }
+  .use-links{
+    line-height: 32px;
+  }
+  .use-links li i{
+    font-size: 14px;
+      padding-right: 8px;
+      color: #898989;
+  }
+  .use-links li a{
+    color: #303030;
+      font-size: 15px;
+      font-weight: 500;
+    color: #777777;
+  }
+  .use-links li a:hover{
+    color: #000;
+  }
+  .address h2{
+    padding-bottom: 15px;
+    font-size: 20px;
+      font-weight: 600;
+  }
+  .address img{
+    padding-bottom: 15px;
+  }
+  .address-links li a{
+    color: #303030;
+      font-size: 15px;
+      font-weight: 700;
+    color: #777777;
+  
+  }
+  .address-links li i{
+    font-size: 16px;
+      padding-right: 8px;
+    color: #82074a;
+  
+  }
+  .address-links li i:nth-child(1){
+    padding-top: 9px;
+  }
+  .address-links .address1{
+    font-weight: 500;
+      font-size: 15px;
+    display: flex;
+  }
+  .address-links{
+        line-height: 32px;
+      color: #777777;
+  }
+  .copy-right-sec{
+    padding: 1.8rem;
+      background: #82074a;
+      color: #fff;
+      text-align: center;
+  }
+  .copy-right-sec a{
+    color: #fcd462;
+      font-weight: 500;
+  }
+  a{
+    text-decoration:none;
+  }
+
 @media only screen and (max-width:850px){
     .menu-btn{
         display: block;
@@ -364,4 +409,6 @@ a:hover{
     .c .event-img{
         max-width: 90%;
     }
+    
+   
 }
