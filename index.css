@@ -48,7 +48,7 @@ body , html{
 header{
     width: 100vw;
     height: 100vh;
-    background-image: url('back.gif');
+    background-image: url('./img/back.gif');
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -60,31 +60,39 @@ header{
     margin-bottom: 150px;
     color: whitesmoke;
     text-align: center;
+    
+    
 }
 
 .header-content h2{
-    font-size: 4vmin;
+    font-size: 7vmin;
+    margin-bottom: -20px;
 }
 
 .line{
     width: 150px;
     height: 4px;
-    background: #fc036b;
+    background: #eb0707;
     margin: 10px auto;
     border-radius: 5px;
+    
+    
 }
 
 .header-content h1{
-    font-size: 7vmin;
-    margin-top: 50px;
-    margin-bottom:30px ;
+    font-size: 5.8vmin;
+    
+   
 }
+
+
 
 .ctn{
     padding: 8px 15px;
-    background: #fc036b;
+    background: #eb0707;
     border-radius: 30px;
     color: whitesmoke;
+    
 }
 
 .menu-btn{
@@ -181,23 +189,46 @@ p{
 }
 
 .car-1{
-    background-image: url('img5.png');
+    background-image: url('./img/img5.png');
 }
 
 .car-2{
-    background-image: url('img5.png');
+    background-image: url('./img/img5.png');
 }
 
 .car-3{
-    background-image: url('img5.png');
+    background-image: url('./img/img5.png');
 }
 
 .car-4{
-    background-image: url('img5.png');
+    background-image: url('./img/img5.png');
 }
 
 .car-5{
-    background-image: url('img5.png');
+    background-image: url('./img/img5.png');
+}
+
+.car-6{
+    background-image: url('./img/img5.png');
+   
+}
+
+.car-7{
+    background-image: url('./img/img5.png');
+    
+}
+
+
+.car-8{
+    background-image: url('./img/img5.png');
+}
+
+.car-9{
+    background-image: url('./img/img5.png');
+}
+
+.car-10{
+    background-image: url('./img/img5.png');
 }
 
 
